@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.up-page {
+  position: fixed;
+  right: 80px;
+  bottom: 80px;
+  width: 20px;
+  height: 20px;
+}
+
+#up-icons {
+  font-size: 80px;
+  color: rgba(13, 110, 253, 0.332);
+  transition: all 0.3s ease 0s;
+}
+
+#up-icons:hover {
+  color: rgba(13, 110, 253, 0.884);
+  transform: scale(1.2);
+}
+
+/*顯示 icon 位置及高度，綁定 icon上層className */
+.up-page {
+  position: fixed;
+  right: 100px;
+  bottom: 100px;
+  width: 20px;
+  height: 20px;
+}
+
+/* 綁定 icon id */
+#up-icons {
+  display: none;
+  font-size: 80px;
+  color: rgba(13, 110, 253, 0.884);
+  /* transition: all 0.3s ease 0s; */
+}
+
+/* 綁定 icon上層className */
+.up-page:hover {
+  transform: scale(1.3);
+  opacity: 0.5;
+  /* font-size: 110px; */
+  /* color: rgba(13, 202, 240, 0.884); */
+}
